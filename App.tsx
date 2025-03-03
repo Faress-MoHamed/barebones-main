@@ -67,7 +67,7 @@ function AppNavigator() {
 		<NavigationContainer>
 			{/* <View style={{ paddingVertical: 40 }}> */}
 			<Stack.Navigator screenOptions={{ headerShown: false }}>
-				{isLoggedIn ? (
+				{!isLoggedIn ? (
 					<>
 						<Stack.Screen
 							name="SignUp"
